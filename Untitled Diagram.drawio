@@ -1,11 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T15:44:02.384Z" agent="5.0 (Windows)" etag="jTWfKuFPSpql8a0-o8rJ" version="16.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T15:48:08.455Z" agent="5.0 (Windows)" etag="_iBeHc7dHpIbFBOVcJmM" version="16.6.7" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="Jogo" style="swimlane;whiteSpace=wrap;rounded=0;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="164.5" y="128" width="280" height="570" as="geometry" />
+          <mxGeometry x="164.5" y="128" width="280" height="570" as="geometry">
+            <mxRectangle x="164.5" y="128" width="60" height="23" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=0;sketch=1;" parent="2" vertex="1">
           <mxGeometry x="100" y="40" width="30" height="30" as="geometry" />
@@ -28,7 +30,9 @@
           <mxGeometry x="55" y="432" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3" value="Thread 2" style="swimlane;whiteSpace=wrap;rounded=0;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="444.5" y="128" width="280" height="570" as="geometry" />
+          <mxGeometry x="444.5" y="128" width="280" height="570" as="geometry">
+            <mxRectangle x="444.5" y="128" width="80" height="23" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="13" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=0;sketch=1;" parent="3" vertex="1">
           <mxGeometry x="60" y="40" width="30" height="30" as="geometry" />
@@ -57,7 +61,9 @@
           <mxGeometry x="105" y="490" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4" value="Thread 3" style="swimlane;whiteSpace=wrap;rounded=0;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="724.5" y="128" width="280" height="570" as="geometry" />
+          <mxGeometry x="724.5" y="128" width="280" height="570" as="geometry">
+            <mxRectangle x="724.5" y="128" width="80" height="23" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="33" value="process&#xa;command" style="rounded=0;sketch=1;" parent="4" vertex="1">
           <mxGeometry x="90" y="405" width="110" height="50" as="geometry" />
@@ -70,6 +76,9 @@
         </mxCell>
         <mxCell id="2lEhchRWuUK_mOqjI1gv-45" value="Score" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="4">
           <mxGeometry x="40" y="102" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2lEhchRWuUK_mOqjI1gv-46" value="Users" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="4">
+          <mxGeometry x="45.5" y="212" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
